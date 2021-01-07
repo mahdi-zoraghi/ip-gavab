@@ -1,7 +1,7 @@
 # ip-gavab
 A small program to calculate the types of IP parts
 
-![Drag Racing](https://files.virgool.io/upload/users/471293/posts/cddkdafp9ld2/zyha8ukuryrd.png)
+![Drag Racing](https://drive.google.com/file/d/1iui7M3on9PMJVXwtjLUKW4UR7xgliGVs/view)
 
 # For See : If you live in Iran, use it VPN.
 

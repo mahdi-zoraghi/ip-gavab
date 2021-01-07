@@ -1,0 +1,60 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input {
+  text-align: center;
+}
+
+button {
+  width: 100%;
+}
+
+.container {
+  padding-top: 60px;
+  padding-bottom: 250px;
+}
+
+.btn-box {
+  text-align: center;
+  padding: 20px 150px;
+}
+
+.container > div {
+  padding-top: 20px;
+}
+
+table tr td:nth-child(even) {
+  width: 50%;
+}
+
+table td > span {
+  display: flex;
+}
+
+table td span:nth-child(1) {
+  flex-grow: 1;
+}
+
+.copy {
+  background-image: url(../img/icon-copy.png);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  width: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.copy:hover {
+  background-image: url(../img/icon-copy-hover.png);
+}
+
+.contact > div {
+  padding-top: 10px;
+}

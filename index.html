@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" type="image/png" href="./img/favicon.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Ip Gavab</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="input-box">
+        <input
+          type="text"
+          id="input"
+          class="form-control"
+          placeholder="example : 192.165.25.35"
+        />
+      </div>
+      <div class="btn-box">
+        <button id="calculate" class="btn btn-primary">Calculate</button>
+      </div>
+      <div class="table-box">
+        <table class="table table-striped table-hover">
+          <tr>
+            <th>IP</th>
+            <td>
+              <span>
+                <span id="ip"></span>
+                <span class="copy" data-copy="ip" title="copy"></span>
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <th>Class</th>
+            <td>
+              <span>
+                <span id="class"></span>
+                <span class="copy" data-copy="class" title="copy"></span>
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <th>Network ID</th>
+            <td>
+              <span>
+                <span id="netId"></span>
+                <span class="copy" data-copy="netId" title="copy"></span>
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <th>Host ID</th>
+            <td>
+              <span>
+                <span id="hostId"></span>
+                <span class="copy" data-copy="hostId" title="copy"></span>
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <th>Network Address</th>
+            <td>
+              <span>
+                <span id="netAd"></span>
+                <span class="copy" data-copy="netAd" title="copy"></span>
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <th>Broadcast Address</th>
+            <td>
+              <span>
+                <span id="brod"></span>
+                <span class="copy" data-copy="brod" title="copy"></span>
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <th>Subnet Mask Address</th>
+            <td>
+              <span>
+                <span id="subnet"></span>
+                <span class="copy" data-copy="subnet" title="copy"></span>
+              </span>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="contact" style="text-align: center">
+        <div>Create By : Mahdi Zoraghi Sheibak</div>
+        <div>Email : mahdi.zoraghi.sheibak@gmail.com</div>
+        <div>
+          Github :
+          <a href="https://github.com/mahdi-zoraghi"
+            >https://github.com/mahdi-zoraghi</a
+          >
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
